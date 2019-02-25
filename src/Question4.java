@@ -22,6 +22,9 @@ public class Question4 {
                 if (o1.salary<o2.salary) {
                    return -1;
                 }
+                if (o1.salary>o2.salary) {
+                   return 1;
+                }
                 else
                     return 0;
             }
